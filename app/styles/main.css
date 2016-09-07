@@ -1,0 +1,32 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+*{ padding: 0px; margin: 0px;}
+body {
+  padding: 0;
+  background: #f7f7f7;
+}
+.nav{ width: 100%; height: 80px; border-top: 2px solid #fa4b2a; background: #fff; box-shadow: 0px 1px 9px 1px #cfcfcf;}
+.nav1{ width: 1030px; height: 80px; margin: 0 auto; padding-left: 90px;}
+.nav1 a{ width: auto; height: 20px; line-height: 20px; float: left; color: #303030; display: block; padding: 0 18px; margin-top: 30px; font-weight: bold; font-size: 10px; text-decoration: none;}
+.nav1 a:hover{ color: #fa4b2a;}
+.title{ height: 125px;}
+.title span{ display: block; height: 85px; font-size: 34px; line-height: 85px; color: #303030; text-align: center; font-family: 'Raleway', sans-serif;}
+.title div{ width: 435px; margin: 0 auto; height: 40px; padding-left: 15px;}
+.title div img{ display: block; float: left; margin-top: 19px;}
+.title div font{ display: block; float: left; color: #fa4b2a; font-size: 14px; line-height: 40px; padding: 0 10px;}
+
+
+.banner{ width: 100%; height: 600px;}
+
+.content{ width: 1125px; height: auto;margin: 0 auto; margin-top: 50px;}
+.content_left{ width: 798px; height: auto; float: left; background: #fff;}
+.content_right{ width: 312px; height: 1170px; float: left; margin-left: 15px; background: #fff;}
+.content_right .input{ width: 246px; height: 62px; margin-top: 32px; margin-left: 32px; border: 1px solid #000;}
+.content_right .input input{ width: 243px; height: 28px; display: block; border: none; outline: none;}
+.content_right img{ display: block; border-left: 1px solid #000;}
+.content_right img:hover{ cursor: pointer;}
+.popular{ width: 246px; height: 80px; color: #fb722a; font-size: 1.5em; font-family: 'Raleway', sans-serif; margin-left: 32px; font-weight: 700; line-height: 80px;}
