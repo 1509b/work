@@ -1,0 +1,73 @@
+.zwd_contact{
+	float: left;
+	width: 100%;
+}
+.zwd_h2 {
+	width: 90%;
+	line-height: 35px;
+	font-size: 2em;
+	margin: 0 auto;
+	color: #fa4b2a;
+	font-weight: 600;
+	font-family: "Raleway", sans-serif;
+	margin-top: 32px;
+}
+
+.zwd_contact_main {
+	width: 90%;
+	overflow: hidden;
+	margin: 3em auto 0px auto;
+}
+.zwd_main_left{
+	width: 65%;
+	padding-right: 1%;
+	float: left;
+}
+
+.zwd_main_right{
+	width: 33%;
+	padding-left: 1%;
+	background: green;
+	float: left;
+}
+
+.zwd_main_left p{
+	color: #777777;
+	padding: 1em 0em;
+	font-size:0.875em;
+	line-height: 1.8em;
+	font-family: "Open Sans", sans-serif;
+}
+
+.zwd_main_left form{
+	width: 100%;
+	overflow: hidden;
+}
+
+.zwd_name{
+	width: 94%;
+	display: block;
+    background: #fff;
+    color: #777;
+    outline: none;
+    font-size: 1em;
+    padding: 0.8em 1em;
+    border: 1px solid #BBB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
