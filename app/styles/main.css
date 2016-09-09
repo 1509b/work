@@ -12,6 +12,7 @@ body {
 }
 .nav{ width: 100%; height: 80px; border-top: 2px solid #fa4b2a; background: #fff; box-shadow: 0px 1px 9px 1px #cfcfcf;}
 .nav1{ width: 1030px; height: 80px; margin: 0 auto; padding-left: 90px;}
+.nav1 img{ display: block;float: left; margin-top: 20px; margin-right: 50px;}
 .nav1 a{ width: auto; height: 20px; line-height: 20px; float: left; color: #303030; display: block; padding: 0 18px; margin-top: 30px; font-weight: bold; font-size: 10px; text-decoration: none;}
 .nav1 a:hover{ color: #fa4b2a;}
 
@@ -19,7 +20,7 @@ body {
 .banner{ width: 100%; height: 600px;}
 .tab{ width: 1140px; height: 366px; margin: 0 auto;}
 .tab_nav{ width: 1140px; height: 46px; border-bottom: 1px solid #ddd;}
-.tab_nav a{ width: 33.3%; height: 46px; display: block; float: left; text-align: center; color: #333; line-height: 46px; font-family:  'Raleway', sans-serif; font-size: 16px; font-weight: 600;}
+.tab_nav a{ width: 33.3%; height: 46px; display: block; float: left; text-align: center; color: #333; line-height: 46px; font-family:  'Raleway', sans-serif; font-size: 16px; font-weight: 600; box-sizing: border-box;}
 .tab_nav a.hover{ border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 3px solid #fa4b2a; background: #fff; text-decoration: none;}
 .tab_nav a:hover{ border-left: 1px solid #ddd; border-right: 1px solid #ddd; border-bottom: 3px solid #fa4b2a; background: #fff; text-decoration: none;}
 .image{ width: 1125px; height: 270px; overflow: hidden;}
@@ -65,14 +66,14 @@ body {
 	height: 51px; 
 	display:block; 
 	border-bottom: 1px solid #fefefe;
-	font-size:20px;
+	font-size:1.7em;
 	color:#ffffff;
 }
 .foot-left font{
 	width:350px;
 	height: 117px; 
 	display:block; 
-	font-size:10px;
+	font-size:0.875em;
 	line-height: 25px;
 	padding-top:35px;
 	box-sizing: border-box;
@@ -83,22 +84,25 @@ body {
 	height: 163px; 
 	display:block; 
 }
-.bnt1{
+a.bnt1{
 	width:130px;
 	height: 31px;
 	margin-top: 16px;
+	transition: 1s;
 	background: #f94a29;
 	text-align: center;
 	line-height: 31px;
 	color:#ffffff;
-	font-size: 12px;
+	font-size: 16px;
 	display:block;
 	text-decoration: none;
 }
-.bnt1:hover{
+a.bnt1:hover{
 	width:130px;
 	height: 31px;
+	color: #fff;
 	background:#030303;
+	transition: 1s;
 	text-decoration: none;
 }
 .foot-middle{
@@ -112,14 +116,14 @@ body {
 	height: 51px; 
 	display:block; 
 	border-bottom: 1px solid #fefefe;
-	font-size:20px;
+	font-size:1.7em;
 	color:#ffffff;
 }
 .foot-middle font{
 	width:350px;
 	height: 90px; 
 	display:block; 
-	font-size:10px;
+	font-size:0.875em;
 	line-height: 25px;
 	padding-top:35px;
 	box-sizing: border-box;
@@ -136,14 +140,14 @@ body {
 	height: 51px; 
 	display:block; 
 	border-bottom: 1px solid #fefefe;
-	font-size:20px;
+	font-size:1.7em;
 	color:#ffffff;
 }
 .foot-right font{
 	width:350px;
 	height: 280px; 
 	display:block; 
-	font-size:10px;
+	font-size:0.875em;
 	line-height: 25px;
 	padding-top:35px;
 	box-sizing: border-box;
@@ -155,7 +159,8 @@ body {
 	margin-top: 8px;
 	outline: none;
 }
-.bnt2{
+a.bnt2{
+	transition: 1s;
 	background:#f94a29; 
 	color:#ffffff;
 	width:350px;
@@ -164,13 +169,15 @@ body {
 	border:2px solid #f94a29;
 	display:block;
 	text-align: center;
-	line-height: 42px;
-	font-size: 10px;
+	line-height: 40px;
+	font-size: 16px;
 	text-decoration: none;
 }
-.bnt2:hover{
+a.bnt2:hover{
 	width:350px;
 	height: 40px;
+	color: #fff;
+	transition: 1s;
 	background:#030303;
 	text-decoration: none;
 	border:2px solid #000000;

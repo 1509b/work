@@ -1,0 +1,111 @@
+.zwd_contact{
+	float: left;
+	width: 100%;
+}
+.zwd_h2 {
+	width: 90%;
+	line-height: 35px;
+	font-size: 2em;
+	margin: 0 auto;
+	color: #fa4b2a;
+	font-weight: 600;
+	font-family: "Raleway", sans-serif;
+	margin-top: 32px;
+}
+
+.zwd_contact_main {
+	width: 90%;
+	overflow: hidden;
+	margin: 3em auto 0px auto;
+}
+.zwd_main_left{
+	width: 65%;
+	padding-right: 1%;
+	float: left;
+}
+
+.zwd_main_right{
+	width: 33%;
+	padding-left: 1%;
+	background: green;
+	float: left;
+}
+
+.zwd_main_left p{
+	color: #777777;
+	padding: 1em 0em;
+	font-size:0.875em;
+	line-height: 1.8em;
+	font-family: "Open Sans", sans-serif;
+}
+
+.zwd_main_left form{
+	width: 100%;
+	overflow: hidden;
+}
+
+.zwd_main_left input{
+	width: 94%;
+	display: block;
+    background: #fff;
+    color: #777;
+    outline: none;
+    font-size: 1em;
+    padding: 0.8em 1em;
+    border: 1px solid #BBB;
+}
+
+.zwd_email{
+	margin: 1em 0px;
+}
+
+.zwd_textarea{
+	display: block;
+	background: #ffffff;
+	color: #777777;
+	outline: none;
+	width: 94%;
+	height: 200px;
+	resize: none;
+	margin: 1em 0px;
+	font-size: 1em;
+	padding: 0.8em 1em;
+	border: 1px solid #bbbbbb;
+	overflow:auto;
+	line-height: 24px;
+}
+
+#zwd_submit{
+	border: none;
+	outline: none;
+	padding: 1em 0px;
+	width: 40%;
+	font-size: 0.95em;
+	letter-spacing:0.5px;
+	color: #ffffff;
+	background: #fa4b2a;
+	transition: all 0.5s linear;
+}
+
+#zwd_submit:hover{
+	background: #303030;
+}
+
+.zwd_bottom{
+	width: 90%;
+	height: 505px;
+	box-sizing: border-box;
+	border: 1px solid #bbbbbb;
+	margin: 3em auto 38px auto;
+	
+}
+
+
+
+
+
+
+
+
+
+

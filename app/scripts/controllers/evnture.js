@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the 1yeomanApp
  */
-angular.module('1yeoman').controller('contact', function ($scope,$http) {
+angular.module('1yeoman')
+  .controller('evnture', function () {
     
-
   });
