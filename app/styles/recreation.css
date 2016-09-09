@@ -1,5 +1,5 @@
 .t-title1{
-	width:798px;
+	width:766px;
 	height: 2em;
 	margin-top: 39px;
 	font-family: 'Raleway', sans-serif;
@@ -18,7 +18,7 @@
 	height: 241px;
 	float:left;
 	display:block;
-	padding-left:47px;
+	margin-left:47px;
 }
 .t-nr{
 	width:323px;
@@ -47,7 +47,7 @@
     color: #9c9c9c;
 }
 .t-title2{
-	width:798px;
+	width:766px;
 	height: 2em;
 	margin-top: 63px;
 	font-family: 'Raleway', sans-serif;
@@ -67,44 +67,44 @@
 	height: 200px;
 	display: block;
 	float:left;
-	padding-left: 52px;
+	margin-left: 52px;
 }
 .t-img2{
 	width:316px;
 	height: 200px;
 	display: block;
 	float:left;
-	padding-left: 18px;
+	margin-left: 18px;
 }
 .t-img3{
 	width:316px;
 	height: 200px;
 	display: block;
 	float:left;
-	padding-left: 52px;
-	padding-top:20px;
+	margin-left: 52px;
+	margin-top:20px;
 }
 .t-img4{
 	width:316px;
 	height: 200px;
 	display: block;
 	float:left;
-	padding-left: 18px;
-	padding-top:20px;
+	margin-left: 18px;
+	margin-top:20px;
 }
 .t-img5{
 	width:316px;
 	height: 200px;
 	display: block;
 	float:left;
-	padding-left: 52px;
-	padding-top:20px;
+	margin-left: 52px;
+	margin-top:20px;
 }
 .t-img6{
 	width:316px;
 	height: 200px;
 	display: block;
 	float:left;
-	padding-left: 18px;
-	padding-top:20px;
+	margin-left: 18px;
+	margin-top:20px;
 }
