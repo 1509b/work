@@ -9,13 +9,5 @@
  */
 angular.module('1yeoman').controller('contact', function ($scope,$http) {
     
-    $scope.focus = function(){
-    	this.value = ""
-    }
-	$scope.blur = function(){
-	    	if(this.value = ""){
-	    		this.value = "Name"
-	    	}
-	    }
-    
+
   });

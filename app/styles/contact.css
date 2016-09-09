@@ -44,7 +44,7 @@
 	overflow: hidden;
 }
 
-.zwd_name{
+.zwd_main_left input{
 	width: 94%;
 	display: block;
     background: #fff;
@@ -55,12 +55,50 @@
     border: 1px solid #BBB;
 }
 
+.zwd_email{
+	margin: 1em 0px;
+}
 
+.zwd_textarea{
+	display: block;
+	background: #ffffff;
+	color: #777777;
+	outline: none;
+	width: 94%;
+	height: 200px;
+	resize: none;
+	margin: 1em 0px;
+	font-size: 1em;
+	padding: 0.8em 1em;
+	border: 1px solid #bbbbbb;
+	overflow:auto;
+	line-height: 24px;
+}
 
+#zwd_submit{
+	border: none;
+	outline: none;
+	padding: 1em 0px;
+	width: 40%;
+	font-size: 0.95em;
+	letter-spacing:0.5px;
+	color: #ffffff;
+	background: #fa4b2a;
+	transition: all 0.5s linear;
+}
 
+#zwd_submit:hover{
+	background: #303030;
+}
 
-
-
+.zwd_bottom{
+	width: 90%;
+	height: 505px;
+	box-sizing: border-box;
+	border: 1px solid #bbbbbb;
+	margin: 3em auto 38px auto;
+	
+}
 
 
 

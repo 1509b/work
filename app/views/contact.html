@@ -4,11 +4,18 @@
 		<div class="zwd_main_left">
 			<p>Nemo enim ips voluptatem voluptas sitsper natuaut odit aut fugit consequuntur magni dolores eosqratio nevoluptatem  amet eism com odictor ut ligulate cot ameti dapibu</p>
 			<form>
-				<input ng-focus="focus()" ng-blur="blur()" type="text" class="zwd_name" value="Name"/>
+				<input onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="" type="text" class="zwd_name" value="Name"/>
+				<input type="email" class="zwd_email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required=""/>
+				<input type="text" class="phone" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required=""/>
+				<textarea class="zwd_textarea" type="text" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Special Instruction/Comments...';}" required="">Special Instruction/Comments...</textarea>
+				<input id="zwd_submit" type="submit" value="Send"/>
 			</form>
 		</div>
 		<div class="zwd_main_right">
 			
 		</div>
+	</div>
+	<div class="zwd_bottom">
+		 
 	</div>
 </div>
