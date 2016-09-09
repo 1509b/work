@@ -1,11 +1,12 @@
 .t-title1{
 	width:798px;
-	height: 22px;
+	height: 2em;
 	margin-top: 39px;
-	color:#fa4b2a;
-	font-size: 22px;
 	font-family: 'Raleway', sans-serif;
 	padding-left: 32px;
+	font-size: 2em;
+    color: #fa4b2a;
+    font-weight: 600;
 }
 .t-content1{
 	width:798px;
@@ -28,31 +29,32 @@
 }
 .t-nr span{
 	width:323px;
-	height: 20px;
-	font-size: 20px;
-	color:#303030;
+	height: 24px;
 	font-weight:600;
 	display: block;
 	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+    color: #303030;
 }
 .t-nr font{
 	width:323px;
 	height: 85px;
 	display: block;
-	font-size: 10px;
-	color:#9c9c9c;
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 28px;
 	line-height: 20px;
+	font-size: 0.875em;
+    color: #9c9c9c;
 }
 .t-title2{
 	width:798px;
-	height: 22px;
+	height: 2em;
 	margin-top: 63px;
-	color:#fa4b2a;
-	font-size: 22px;
 	font-family: 'Raleway', sans-serif;
 	padding-left: 32px;
+	font-size: 2em;
+    color: #fa4b2a;
+    font-weight: 600;
 }
 .t-picter{
 	width:798px;
