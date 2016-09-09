@@ -50,12 +50,12 @@
 }
 .t-nav1 p{
 	width:337px;
-	height: 60px;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	padding-top:36px;
 	display: block;
 	color:#999999;
+	line-height: 1.8em;
 }
 .t-more{
 	width:337px;
@@ -63,7 +63,7 @@
 	display: block;
 	font-size: 14px;
 	font-family: 'Raleway', sans-serif;
-	padding-top:53px;
+	padding-top:33px;
 	padding-left: 13px;
 	text-decoration: none;
 }
@@ -104,10 +104,10 @@
 }
 .t-nav2 p{
 	width:337px;
-	height: 60px;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 	padding-top:36px;
 	display: block;
 	color:#999999;
+	line-height: 1.8em;
 }
