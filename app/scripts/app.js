@@ -9,39 +9,38 @@
  * Main module of the application.
  */
 angular.module('1yeoman', ["ui.router"]).config(function($stateProvider,$urlRouterProvider) {
-	$urlRouterProvider.when("","/home")
-	$stateProvider.state("home", {
-		templateUrl: "../views/home.html",
-		url: "/home",
-		controller: "home"
+	$urlRouterProvider.when("","/information")
+	$stateProvider.state("information", {
+		templateUrl: "../views/information.html",
+		url: "/information",
+		controller: "information"
+	}).state("product", {
+		templateUrl: "../views/product.html",
+		url: "/product",
+		controller: "product"
+	}).state("automobile", {
+		templateUrl: "../views/automobile.html",
+		url: "/automobile",
+		controller: "automobile"
+	}).state("phone", {
+		templateUrl: "../views/phone.html",
+		url: "/phone",
+		controller: "phone"
+	}).state("financial", {
+		templateUrl: "../views/financial.html",
+		url: "/financial",
+		controller: "financial"
+	}).state("recreation", {
+		templateUrl: "../views/recreation.html",
+		url: "/recreation",
+		controller: "recreation"
+	}).state("evnture", {
+		templateUrl: "../views/evnture.html",
+		url: "/evnture",
+		controller: "evnture"
 	}).state("about", {
 		templateUrl: "../views/about.html",
 		url: "/about",
 		controller: "about"
-	}).state("features", {
-		templateUrl: "../views/features.html",
-		url: "/features",
-		controller: "features"
-	}).state("travel", {
-		templateUrl: "../views/travel.html",
-		url: "/travel",
-		controller: "travel"
-	}).state("fashion", {
-		templateUrl: "../views/fashion.html",
-		url: "/fashion",
-		controller: "fashion"
-	}).state("music", {
-		templateUrl: "../views/music.html",
-		url: "/music",
-		controller: "music"
-	}).state("codes", {
-		templateUrl: "../views/codes.html",
-		url: "/codes",
-		controller: "codes"
-	}).state("contact", {
-		templateUrl: "../views/contact.html",
-		url: "/contact",
-		controller: "contact"
 	})
-	
 })

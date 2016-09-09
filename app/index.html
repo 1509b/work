@@ -15,14 +15,14 @@
 		<!-- build:css(.tmp) styles/main.css -->
 		<link rel="stylesheet" href="styles/reset.css" />
 		<link rel="stylesheet" href="styles/main.css">
-		<link rel="stylesheet" href="styles/home.css" />
+		<link rel="stylesheet" href="styles/information.css" />
 		<link rel="stylesheet" href="styles/about.css" />
-		<link rel="stylesheet" href="styles/features.css" />
-		<link rel="stylesheet" href="styles/travel.css" />
-		<link rel="stylesheet" href="styles/fashion.css" />
-		<link rel="stylesheet" href="styles/music.css" />
-		<link rel="stylesheet" href="styles/codes.css" />
-		<link rel="stylesheet" href="styles/contact.css" />
+		<link rel="stylesheet" href="styles/automobile.css" />
+		<link rel="stylesheet" href="styles/phone.css" />
+		<link rel="stylesheet" href="styles/financial.css" />
+		<link rel="stylesheet" href="styles/recreation.css" />
+		<link rel="stylesheet" href="styles/evnture.css" />
+		<link rel="stylesheet" href="styles/product.css" />
 		<!-- endbuild -->
 	</head>
 
@@ -34,14 +34,15 @@
 		<!-- Add your site or application content here -->
 		<div class="nav">
 			<div class="nav1">
-				<a ui-sref="home">HOME</a>
+				<img src="images/logo.png" width="74" height="40" />
+				<a ui-sref="information">INFORMATION</a>
+				<a ui-sref="product">PRODUCT</a>
+				<a ui-sref="automobile">AUTOMOBILE</a>
+				<a ui-sref="phone">PHONE</a>
+				<a ui-sref="financial">FINANCIAL</a>
+				<a ui-sref="recreation">RECREATION</a>
+				<a ui-sref="evnture">VENTURE</a>
 				<a ui-sref="about">ABOUT</a>
-				<a ui-sref="features">FEATURES</a>
-				<a ui-sref="travel">TRAVEL</a>
-				<a ui-sref="fashion">FASHION</a>
-				<a ui-sref="music">MUSIC</a>
-				<a ui-sref="codes">CODES</a>
-				<a ui-sref="contact">CONTACT</a>
 			</div>
 		</div>
 		<div class="banner">
@@ -169,16 +170,15 @@
 
 		<!-- build:js({.tmp,app}) scripts/scripts.js -->
 		<script src="scripts/app.js"></script>
-		<script src="scripts/controllers/home.js"></script>
+		<script src="scripts/controllers/information.js"></script>
 		<script src="scripts/controllers/main.js"></script>
 		<script src="scripts/controllers/about.js"></script>
-		<script src="scripts/controllers/codes.js"></script>
-		<script src="scripts/controllers/contact.js"></script>
-		<script src="scripts/controllers/fashion.js"></script>
-		<script src="scripts/controllers/features.js"></script>
-		<script src="scripts/controllers/music.js"></script>
-		<script src="scripts/controllers/travel.js"></script>
+		<script src="scripts/controllers/evnture.js"></script>
+		<script src="scripts/controllers/product.js"></script>
+		<script src="scripts/controllers/financial.js"></script>
+		<script src="scripts/controllers/automobile.js"></script>
+		<script src="scripts/controllers/recreation.js"></script>
+		<script src="scripts/controllers/phone.js"></script>
 		<!-- endbuild -->
 	</body>
-
 </html>
