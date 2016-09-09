@@ -34,10 +34,10 @@ angular.module('1yeoman', ["ui.router"]).config(function($stateProvider,$urlRout
 		templateUrl: "../views/recreation.html",
 		url: "/recreation",
 		controller: "recreation"
-	}).state("evnture", {
-		templateUrl: "../views/evnture.html",
-		url: "/evnture",
-		controller: "evnture"
+	}).state("venture", {
+		templateUrl: "../views/venture.html",
+		url: "/venture",
+		controller: "venture"
 	}).state("about", {
 		templateUrl: "../views/about.html",
 		url: "/about",
