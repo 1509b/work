@@ -30,11 +30,9 @@ body {
 
 .content{ width: 1125px; margin: 0 auto; overflow: hidden;}
 .content_left{ width: 798px; float: left; background: #fff;}
-.content_right{ width: 312px; height: 1170px; float: left; margin-left: 15px; background: #fff;}
+.content_right{ width: 312px; height: 590px; float: left; margin-left: 15px; background: #fff;}
 .content_right .input{ width: 246px; height: 62px; margin-top: 32px; margin-left: 32px; border: 1px solid #000;}
 .content_right .input input{ width: 243px; height: 28px; display: block; border: none; outline: none;}
-.input img{ display: block; border-left: 1px solid #000;}
-.input img:hover{ cursor: pointer;}
 .popular{ width: 246px; height: 80px; color: #fb722a; font-size: 1.5em; font-family: 'Raleway', sans-serif; margin-left: 32px; font-weight: 700; line-height: 80px;}
 .news{ width: 248px; height: 98px; font-size: 14px; font-family: 'Raleway', sans-serif; border-bottom: 1px dotted #aeaeae; margin: 0 32px; padding-top: 21px;}
 .news img{ float: left; display: block;}

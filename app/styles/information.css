@@ -5,8 +5,8 @@
 .z_induce h6 a{ color: #fa4b2a; text-decoration: none;}
 .z_induce h6 a:hover{ cursor: pointer;}
 .z_induce p{ width: 734px; color: #777; font-size: 0.875em; line-height: 1.8em; margin: 1em 0; font-family: 'Open Sans', sans-serif;}
-.z_induce span{ width: 185px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif;}
-.z_induce span:hover{ transition: 1s; background: #303030; cursor: pointer;}
+.z_induce span{ width: 185px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+.z_induce span:hover{ transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
 
 
 .z_induce_mid{ width: 798px; height: 551px; background: #fff;}
@@ -17,8 +17,8 @@
 .z_induce_mid_1 h6 a{ color: #fa4b2a; text-decoration: none;}
 .z_induce_mid_1 h6 a:hover{ cursor: pointer;}
 .z_induce_mid_1 p{ width: 335px; color: #777; font-size: 0.875em; line-height: 1.8em; margin: 1em 0; font-family: 'Open Sans', sans-serif;}
-.z_induce_mid_1 span{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif;}
-.z_induce_mid_1 span:hover{ transition: 1s; background: #303030; cursor: pointer;}
+.z_induce_mid_1 span{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+.z_induce_mid_1 span:hover{ transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
 
 .z_induce_bot{ width: 798px; height: 284px; padding: 32px;}
 .z_induce_bot img{ display: block; float: left;}
@@ -29,5 +29,5 @@
 .z_induce_bot h6 a{ color: #fa4b2a; text-decoration: none;}
 .z_induce_bot h6 a:hover{ cursor: pointer;}
 .z_induce_bot p{ width: 335px; color: #777; font-size: 0.875em; line-height: 1.8em; margin: 1em 0; font-family: 'Open Sans', sans-serif;}
-.z_induce_bot span{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif;}
-.z_induce_bot span:hover{ transition: 1s; background: #303030; cursor: pointer;}
+.z_induce_bot span{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+.z_induce_bot span:hover{ transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
