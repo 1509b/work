@@ -1,0 +1,198 @@
+.lyFeat {
+	width: calc(798px - 63px);
+	padding: 0 32px 0 31px;
+	background: white;
+	float: left;
+}
+
+.ly_welcome {
+	width: 100%;
+	float: left;
+}
+
+#all {
+	font: 32px/32px "'Raleway', sans-serif";
+	margin: 39px 0 37px 0;
+	color: #fa4b2a;
+	font-weight: 600;
+}
+
+.welImg img {
+	width: 100%;
+}
+
+.aboText {
+	width: 99%;
+	float: left;
+}
+
+.aboText p {
+	font: 14px/26px "arial, helvetica, sans-serif";
+	color: #777;
+}
+
+.textTop {
+	padding: 15px 0;
+}
+
+.textBottom {
+	padding-bottom: 15px;
+}
+
+.ly_meetOurTeam {
+	width: 100%;
+	float: left;
+}
+
+.per_team {
+	width: 100%;
+	float: left;
+}
+
+#taem img {
+	width: 100%;
+}
+
+#taem {
+	position: relative;
+	overflow: hidden;
+}
+
+.p-mask {
+	position: absolute;
+	/*bottom: 0;*/
+	width: 100%;
+}
+
+.fig h5 {
+	font-size: 18px;
+	color: #fa4b2a;
+	margin: 1em 0;
+	text-align: center;
+	font-weight: 600;
+}
+
+.fig span {
+	display: block;
+	color: #999;
+	font-size: 14px;
+	margin: .5em 0 0;
+}
+
+.feat_top {
+	width: 100%;
+}
+
+.feat_top p {
+	text-align: left;
+	color: #9c9c9c;
+	font-size: 14px;
+	line-height: 24px;
+	/*margin-bottom: 37px;*/
+}
+
+.feat_bottom {
+	width: 100%;
+	float: left;
+	padding-bottom: 32px;
+}
+
+.feat_grid {
+	width: calc(50% - 30px);
+	float: left;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 50px;
+}
+
+.grid_img img {
+	width: 100%;
+}
+
+.grid_text h4 {
+	margin: 20px 0;
+	font-size: 20px;
+	color: #303030;
+	font-weight: 700;
+	word-spacing: -5px;
+}
+
+.grid_text p {
+	color: #9c9c9c;
+	font-size: 14px;
+	line-height: 24px;
+	word-spacing: -5px;
+}
+
+.fig {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sal_manager {
+	float: left;
+}
+
+.manager {
+	float: right;
+}
+
+.fig img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.p-mask::before,
+.p-mask::after {
+	pointer-events: none;
+}
+
+.fig img {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.fig img {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.fig p {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: calc( 100% - 40px);
+	height: 60px;
+	font: 14px/20px "Open Sans, sans-serif";
+	padding: 0 20px;
+	background: rgba(34, 34, 34, 0.55);
+	color: white;
+	text-align: center;
+}
+
+.fig p {
+	text-transform: none;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0, 50px, 0);
+	transform: translate3d(0, 50px, 0);
+}
+
+.gig:hover img {
+	-webkit-transform: translate3d(0, -80px, 0);
+	transform: translate3d(0, -80px, 0);
+}
+
+.fig:hover p {
+	padding-top: 25px;
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
