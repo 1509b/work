@@ -13,13 +13,32 @@
 	height: 241px;
 	margin-top: 54px;
 }
-.t-content1 img{
+.t-imgs{
 	width:337px;
 	height: 241px;
 	float:left;
-	display:block;
+	display: block;
 	margin-left:47px;
+	overflow: hidden;
+}
+.t-imgs img{
+	width:337px;
+	height: 241px;
+	display:block;
 	cursor: pointer;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-ms-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition:all 1s ease;	
+}
+.t-imgs img:hover{
+	-webkit-transform-origin:center center;
+	-moz-transition:center center;
+	-ms-transition:center center;
+	-o-transition:center center;
+	-webkit-transform:scale(1.2);
+	-webkit-transition:0.1s;
 }
 .t-nr{
 	width:323px;
@@ -79,6 +98,7 @@
 	float:left;
 	margin-left: 18px;
 	overflow:hidden;
+	position: relative;
 }
 .t-wh3{
 	width:316px;
@@ -88,6 +108,7 @@
 	margin-left: 52px;
 	margin-top:20px;
 	overflow:hidden;
+	position: relative;
 }
 .t-wh4{
 	width:316px;
@@ -97,6 +118,7 @@
 	margin-left: 18px;
 	margin-top:20px;
 	overflow:hidden;
+	position: relative;
 }
 .t-wh5{
 	width:316px;
@@ -106,6 +128,7 @@
 	margin-left: 52px;
 	margin-top:20px;
 	overflow:hidden;
+	position: relative;
 }
 .t-wh6{
 	width:316px;
@@ -115,47 +138,115 @@
 	margin-left: 18px;
 	margin-top:20px;
 	overflow:hidden;
+	position: relative;
 }
 .t-wh1 a{
 	width:316px;
 	height: 263px;
 	display: block;
 	position: absolute;
-	-webkit-transition: 10s;
-	-moz-transition: 10s;
-	-o-transition: 2s;
-	
+	top:0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-wh1:hover a{
 	top: -63px;
-	-webkit-transition: 10s;
-	-moz-transition: 10s;
-	-o-transition: 2s;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-wh2 a{
 	width:316px;
 	height: 263px;
 	display: block;
+	position: absolute;
+	top:0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.t-wh2:hover a{
+	top: -63px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-wh3 a{
 	width:316px;
 	height: 263px;
 	display: block;
+	position: absolute;
+	top:0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.t-wh3:hover a{
+	top: -63px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-wh4 a{
 	width:316px;
 	height: 263px;
 	display: block;
+	position: absolute;
+	top:0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.t-wh4:hover a{
+	top: -63px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-wh5 a{
 	width:316px;
 	height: 263px;
 	display: block;
+	position: absolute;
+	top:0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.t-wh5:hover a{
+	top: -63px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-wh6 a{
 	width:316px;
 	height: 263px;
 	display: block;
+	position: absolute;
+	top:0px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+.t-wh6:hover a{
+	top: -63px;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
 }
 .t-zi{
 	width:316px;
