@@ -1,57 +1,69 @@
 
-		<div class="lh_travel" ng-controller='phone'>
+		<div class="lh_travel" ng-controller='phone' style="padding-bottom: 40px;">
 			<p class="lh_tr"><b>PHONE</b></p>					
 					<div class="lh_sint">
-						<div class="lh_sint_left">
-							<img src="" width="337px" height="212px">
-							<p class="lh_sin"><a href="javascript:;">Sint Occaecat Cupidatat</a></p>
-							<p class="lh_date">28 July 2016</p>
-							<p class="lh_duis">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p class="lh_learn"><a href="javascript:;">Learn More</a></p>
+						<div ng-repeat="a in data">
+							<div class="lh_sint_left" ng-if="$index==0">
+								<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+								<p class="lh_sin"><a href="javascript:;">{{a.title}}</a></p>
+								<p class="lh_date">{{a.date}}</p>
+								<p class="lh_duis" ng-bind-html="a.content|q"></p>
+								<p class="lh_learn"><a ui-sref="singlepage({'id':a.id})">Learn More</a></p>
+							</div>
 						</div><!--lh_sint_left-->
 						
-						<div class="lh_sint_right">
-							<img src="" width="337px" height="212px">
-							<p class="lh_sin"><a href="javascript:;">Sint Occaecat Cupidatat</a></p>
-							<p class="lh_date">28 July 2016</p>
-							<p class="lh_duis">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p class="lh_learn"><a href="javascript:;">Learn More</a></p>
+						<div ng-repeat="a in data">
+							<div class="lh_sint_right" ng-if="$index==1">
+								<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+								<p class="lh_sin" style="margin-bottom: 1.4em;"><a href="javascript:;">{{a.title}}</a></p>
+								<p class="lh_date">{{a.date}}</p>
+								<p class="lh_duis" ng-bind-html="a.content|q"></p>
+								<p class="lh_learn"><a ui-sref="singlepage({'id':a.id})">Learn More</a></p>
+							</div>
 						</div><!--lh_sint_right-->
 					</div><!--lh_sint-->
 					
 					<div class="lh_sint">
-						<div class="lh_sint_left">
-							<img src="" width="337px" height="212px">
-							<p class="lh_sin"><a href="javascript:;">Sint Occaecat Cupidatat</a></p>
-							<p class="lh_date">28 July 2016</p>
-							<p class="lh_duis">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p class="lh_learn"><a href="javascript:;">Learn More</a></p>
+						<div ng-repeat="a in data">
+							<div class="lh_sint_left" ng-if="$index==2">
+								<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+								<p class="lh_sin"><a href="javascript:;">{{a.title}}</a></p>
+								<p class="lh_date">{{a.date}}</p>
+								<p class="lh_duis" ng-bind-html="a.content|q"></p>
+								<p class="lh_learn"><a ui-sref="singlepage({'id':a.id})">Learn More</a></p>
+							</div>
 						</div><!--lh_sint_left-->
 						
-						<div class="lh_sint_right">
-							<img src="" width="337px" height="212px">
-							<p class="lh_sin"><a href="javascript:;">Sint Occaecat Cupidatat</a></p>
-							<p class="lh_date">28 July 2016</p>
-							<p class="lh_duis">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p class="lh_learn"><a href="javascript:;">Learn More</a></p>
+						<div ng-repeat="a in data">
+							<div class="lh_sint_right" ng-if="$index==3">
+								<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+								<p class="lh_sin"><a href="javascript:;">{{a.title}}</a></p>
+								<p class="lh_date">{{a.date}}</p>
+								<p class="lh_duis" ng-bind-html="a.content|q"></p>
+								<p class="lh_learn"><a ui-sref="singlepage({'id':a.id})">Learn More</a></p>
+							</div>
 						</div><!--lh_sint_right-->
 					</div><!--lh_sint-->
 					
 					<div class="lh_sint">
-						<div class="lh_sint_left">
-							<img src="" width="337px" height="212px">
-							<p class="lh_sin"><a href="javascript:;">Sint Occaecat Cupidatat</a></p>
-							<p class="lh_date">28 July 2016</p>
-							<p class="lh_duis">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p class="lh_learn"><a href="javascript:;">Learn More</a></p>
+						<div ng-repeat="a in data">
+							<div class="lh_sint_left" ng-if="$index==4">
+								<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+								<p class="lh_sin"><a href="javascript:;">{{a.title}}</a></p>
+								<p class="lh_date">{{a.date}}</p>
+								<p class="lh_duis" ng-bind-html="a.content|q"></p>
+								<p class="lh_learn"><a ui-sref="singlepage({'id':a.id})">Learn More</a></p>
+							</div>
 						</div><!--lh_sint_left-->
 						
-						<div class="lh_sint_right">
-							<img src="" width="337px" height="212px">
-							<p class="lh_sin"><a href="javascript:;">Sint Occaecat Cupidatat</a></p>
-							<p class="lh_date">28 July 2016</p>
-							<p class="lh_duis">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p class="lh_learn"><a href="javascript:;">Learn More</a></p>
+						<div ng-repeat="a in data">
+							<div class="lh_sint_right" ng-if="$index==5">
+								<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+								<p class="lh_sin"><a href="javascript:;">{{a.title}}</a></p>
+								<p class="lh_date">{{a.date}}</p>
+								<p class="lh_duis" ng-bind-html="a.content|q"></p>
+								<p class="lh_learn"><a ui-sref="singlepage({'id':a.id})">Learn More</a></p>
+							</div>
 						</div><!--lh_sint_right-->
 					</div><!--lh_sint-->					
 		</div><!--lh_travel-->

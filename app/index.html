@@ -10,6 +10,7 @@
 		<!-- build:css(.) styles/vendor.css -->
 		<!-- bower:css -->
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+		<link rel="stylesheet" href="bower_components/summernote/dist/summernote.css" />
 		<!-- endbower -->
 		<!-- endbuild -->
 		<!-- build:css(.tmp) styles/main.css -->
@@ -23,6 +24,7 @@
 		<link rel="stylesheet" href="styles/recreation.css" />
 		<link rel="stylesheet" href="styles/venture.css" />
 		<link rel="stylesheet" href="styles/product.css" />
+		<link rel="stylesheet" href="styles/singlepage.css" />
 		<!-- endbuild -->
 	</head>
 
@@ -35,41 +37,48 @@
 		<div class="nav">
 			<div class="nav1">
 				<img src="images/logo.png" width="74" height="40" />
-				<a ui-sref="information">INFORMATION</a>
-				<a ui-sref="product">PRODUCT</a>
-				<a ui-sref="automobile">AUTOMOBILE</a>
-				<a ui-sref="phone">PHONE</a>
-				<a ui-sref="financial">FINANCIAL</a>
-				<a ui-sref="venture">VENTURE</a>
-				<a ui-sref="recreation">RECREATION</a>
-				<a ui-sref="about">ABOUT</a>
+				<a ui-sref-active="hover" ui-sref="information">INFORMATION</a>
+				<a ui-sref-active="hover" ui-sref="product">PRODUCT</a>
+				<a ui-sref-active="hover" ui-sref="automobile">AUTOMOBILE</a>
+				<a ui-sref-active="hover" ui-sref="phone">PHONE</a>
+				<a ui-sref-active="hover" ui-sref="financial">FINANCIAL</a>
+				<a ui-sref-active="hover" ui-sref="venture">VENTURE</a>
+				<a ui-sref-active="hover" ui-sref="recreation">RECREATION</a>
+				<a ui-sref-active="hover" ui-sref="about">ABOUT</a>
 			</div>
 		</div>
 		<div class="banner">
-			<span></span>
+			<div>
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+			</div>
 		</div>
-		<div class="tab">
+		<div class="tab" ng-controller="index">
 			<div class="tab_nav">
-				<a ui-sref-active="hover">FASHION</a>
-				<a ui-sref-active="hover">TRAVEL</a>
-				<a ui-sref-active="hover">MUSIC</a>
+				<a ng-click="show1(aa)" ng-class="{abc:aa}">PHONE</a>
+				<a ng-click="show2(bb)" ng-class="{abc:bb}">PRODUCT</a>
+				<a ng-click="show3(cc)" ng-class="{abc:cc}">VENTURE</a>
 			</div>
 			<div class="image">
-				<div>
-					<img src="" width="350" height="220" />
-					<img src="" width="350" height="220" />
-					<img src="" width="350" height="220" />
-				</div>
-				<div>
-					<img src="" width="350" height="220" />
-					<img src="" width="350" height="220" />
-					<img src="" width="350" height="220" />
-				</div>
-				<div>
-					<img src="" width="350" height="220" />
-					<img src="" width="350" height="220" />
-					<img src="" width="350" height="220" />
-				</div>
+				<tab ng-show="isshow1">
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/85496b98cbc65b4a525a83ddf311cd3b.jpg" width="350" height="220" />
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/54685506a48195239b601122e49ac019.jpg" width="350" height="220" />
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/813125c9f1e82e31339a5e13d0036ed4.jpg" width="350" height="220" />
+				</tab>
+				<tab ng-show="isshow2">
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/b7c826f54af4e55ab830aee9876f8c08.png" width="350" height="220" />
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/f98fe135c362f757ece45b223ed51ec1.jpg" width="350" height="220" />
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/eb366bbe67412287f0be302a2a11c8c6.jpg" width="350" height="220" />
+				</tab>
+				<tab ng-show="isshow3">
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/a79422de2de8df78094cf942b1ea4156.jpg" width="350" height="220" />
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/68bbd02fa7cd7460c1d74b1ffe9003cb.jpg" width="350" height="220" />
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/ee968461614517fabb2bcbedbd14f74e.jpg" width="350" height="220" />
+				</tab>
 			</div>
 		</div>
 		<div class="content">
@@ -146,6 +155,8 @@
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/summernote/dist/summernote.js"></script>
+		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
 		<!-- endbower -->
 		<!-- endbuild -->
 
@@ -160,6 +171,7 @@
 		<script src="scripts/controllers/automobile.js"></script>
 		<script src="scripts/controllers/recreation.js"></script>
 		<script src="scripts/controllers/phone.js"></script>
+		<script src="scripts/controllers/singlepage.js"></script>
 		<!-- endbuild -->
 	</body>
 </html>

@@ -1,3 +1,4 @@
+
 .z_induce{ width: 734px; height: 697px; padding: 32px;}
 .z_induce h3 a{ width: 734px; height: 26px; color: #fa4b2a; font-size: 1.5em; font-family: 'Raleway', sans-serif; font-weight: 700; margin: 0.5em 0 0; text-decoration: none;}
 .z_induce h3 a:hover{ color: #303030; cursor: pointer;}
@@ -5,8 +6,8 @@
 .z_induce h6 a{ color: #fa4b2a; text-decoration: none;}
 .z_induce h6 a:hover{ cursor: pointer;}
 .z_induce p{ width: 734px; color: #777; font-size: 0.875em; line-height: 1.8em; margin: 1em 0; font-family: 'Open Sans', sans-serif;}
-.z_induce span{ width: 185px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
-.z_induce span:hover{ transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+.z_induce span.btn a{ width: 185px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s; padding: 0; border-radius: 0px; display: block;}
+.z_induce span.btn a:hover{ text-decoration: none; transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
 
 
 .z_induce_mid{ width: 798px; height: 551px; background: #fff;}
@@ -17,17 +18,21 @@
 .z_induce_mid_1 h6 a{ color: #fa4b2a; text-decoration: none;}
 .z_induce_mid_1 h6 a:hover{ cursor: pointer;}
 .z_induce_mid_1 p{ width: 335px; color: #777; font-size: 0.875em; line-height: 1.8em; margin: 1em 0; font-family: 'Open Sans', sans-serif;}
-.z_induce_mid_1 span{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
-.z_induce_mid_1 span:hover{ transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+.z_induce_mid_1 span.btn{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s; padding: 0; border-radius: 0px; display: block;}
+.z_induce_mid_1 span a{color: #fff; text-decoration: none;}
+.z_induce_mid_1 span.btn:hover{ text-decoration: none; transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+
+.btn a{ color: #fff;}
+.btn a:hover{ color: #fff; text-decoration: none;}
 
 .z_induce_bot{ width: 798px; height: 284px; padding: 32px;}
-.z_induce_bot img{ display: block; float: left;}
-.z_induce_bot_1{ float: left; margin-left: 30px;}
+.z_induce_bot div img{ display: block; float: left;}
+.z_induce_bot_1{ float: left; margin-left: 30px; width: 369px;}
 .z_induce_bot h3 a{ width: 350px; height: 26px; color: #fa4b2a; font-size: 1.5em; font-family: 'Raleway', sans-serif; font-weight: 700; margin: 0.5em 0 0; text-decoration: none;}
 .z_induce_bot h3 a:hover{ color: #303030; cursor: pointer;}
 .z_induce_bot h6{ width: 350px; height: 17px; font-size: 1em; color: #303030; font-weight: 600; font-family:  'Raleway', sans-serif; margin-top: 1em;}
 .z_induce_bot h6 a{ color: #fa4b2a; text-decoration: none;}
 .z_induce_bot h6 a:hover{ cursor: pointer;}
 .z_induce_bot p{ width: 335px; color: #777; font-size: 0.875em; line-height: 1.8em; margin: 1em 0; font-family: 'Open Sans', sans-serif;}
-.z_induce_bot span{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
-.z_induce_bot span:hover{ transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}
+.z_induce_bot span.btn{ width: 129px; height: 2.2em; display: block; margin-top: 2em; font-size: 1em; line-height: 2.2em; text-align: center; color: #fff; transition: 1s; background: #fa4b2a; font-family: 'Raleway', sans-serif; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s; padding: 0; border-radius: 0px; display: block;}
+.z_induce_bot span.btn:hover{ text-decoration: none; transition: 1s; background: #303030; cursor: pointer; -moz-transition: 1s; -o-transition: 1s; -webkit-transition: 1s;}

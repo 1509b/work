@@ -1,0 +1,224 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.w798px {
+	width: 798px;
+}
+
+.zwd_h3 {
+	width: 90%;
+	margin: 2em auto 0px auto;
+	font-size: 2em;
+	color: #fa4b2a;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+}
+
+.zwd_single {
+	width: 90%;
+	overflow: hidden;
+	margin: 3em auto 0px auto;
+}
+
+.zwd_h5 {
+	width: 100%;
+	margin: 0.8em auto;
+	color: #fa4b2a;
+	font-size: 1.6em;
+	font-weight: 600;
+}
+
+.zwd_sub {
+	line-height: 1.9em;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 0.9em;
+	color: #777;
+	margin-bottom: 1em;
+}
+
+.zwd_aug {
+	color: #333;
+}
+
+.zwd_aug a {
+	text-decoration: none;
+	color: #333;
+}
+
+.zwd_aug a span {
+	padding-left: 40px;
+}
+
+.zwd_link_1 span {
+	background:url(img/hui_duihua.png) no-repeat 60% 50%;
+	background-size:16px;
+}
+.zwd_link_1 span:hover{
+	background:url(img/hei_duihua.png) no-repeat 60% 50%;
+	background-size:16px;
+}
+.zwd_link_2 span {
+	background:url(img/hui_yanjing.png) no-repeat 55% 50%;
+	background-size:16px;
+}
+.zwd_link_2 span:hover{
+	background:url(img/hei_yanjing.png) no-repeat 55% 50%;
+	background-size:16px;
+}
+.zwd_response {
+	width: 90%;
+	margin: 3em auto 0px auto;
+}
+
+.zwd_h4 {
+	color: #fa4b2a;
+	font-size: 1.5em;
+	font-weight: 600;
+	margin-bottom: 1.5em;
+}
+
+.zwd_info {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 2em;
+}
+
+.zwd_info_left {
+	width: 22%;
+	padding-right: 3%;
+	float: left;
+}
+
+.zwd_info_left a {
+	display: block;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.zwd_info_right {
+	width: 75%;
+	float: left;
+}
+
+.zwd_info_right p {
+	color: #777;
+	font-size: 0.9em;
+	margin: 0 0 1em;
+	line-height: 1.9em;
+}
+
+.zwd_info_right ul {
+	list-style: none;
+}
+
+.zwd_info_right ul li {
+	float: left;
+	margin-right: 40px;
+}
+
+.zwd_info_right ul li:first-child {
+	color: #F26649;
+	font-size: 0.9em;
+	font-weight: 400;
+}
+
+.zwd_info_right ul li a {
+	color: #000000;
+	font-size: 1em;
+	font-weight: 700;
+	display: block;
+	text-decoration: none;
+}
+
+.zwd_from {
+	width: 90%;
+	margin: 2em auto 1em auto;
+	padding-bottom: 1em;
+}
+
+
+/*.zwd_h4{color: #fa4b2a;font-size: 1.5em;font-weight: 600;margin-bottom: 1.5em;}*/
+
+.zwd_name {
+	display: block;
+	background: none;
+	color: #777;
+	border: 1px solid #ddd;
+	width: 70%;
+	margin-bottom: 5px;
+	outline: none;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 13px 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.zwd_email {
+	background: none;
+	color: #777;
+	border: 1px solid #ddd;
+	width: 70%;
+	margin-bottom: 5px;
+	outline: none;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 13px 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.zwd_website {
+	display: block;
+	background: none;
+	color: #777;
+	border: 1px solid #ddd;
+	width: 70%;
+	margin-bottom: 5px;
+	outline: none;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 13px 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.zwd_comment {
+	background: none;
+	color: #777;
+	border: 1px solid #ddd;
+	width: 100%;
+	display: block;
+	height: 150px;
+	outline: none;
+	font-size: 13px;
+	font-weight: 400;
+	resize: none;
+	padding: 13px 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.zwd_submit {
+	background: #fa4b2a;
+	border: 1px solid #fa4b2a;
+	padding: 0.8em 0;
+	width: 30%;
+	margin-top: 0.5em;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	outline: none;
+	transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	cursor: pointer;
+}
+
+.zwd_submit:hover {
+	background: #303030;
+	border: 1px solid #303030;
+}

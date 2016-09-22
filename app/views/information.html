@@ -1,57 +1,68 @@
 <div ng-controller="information">
-	<div class="z_induce">
-		<img src="" width="734" height="342" />
-		<h3><a>Lorem Ipsum is simply</a></h3>
-		<h6>BY <a>ADAM ROSE</a> JULY 10 2016.</h6>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		<span>Continue Reading</span>
+	<div ng-repeat="x in data">
+		<div class="z_induce" ng-if="$index==5">
+			<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="734" height="342" />
+			<h3><a>{{x.title}}</a></h3>
+			<h6>{{x.date}}</h6>
+			<p ng-bind-html="x.content|f"></p>
+			<span class="btn"><a ui-sref="singlepage({'id':x.id})">Continue Reading</a></span>
+		</div>
 	</div>
 	<div style="height: 15px; width: 798px; background: #f7f7f7;"></div>
 	<div class="z_induce_mid">
-		<div class="z_induce_mid_1">
-			<img src="" width="335" height="239" />
-			<h3><a>Lorem Ipsum is simply</a></h3>
-			<h6>BY <a>ADAM ROSE</a> JULY 10 2016.</h6>
-			<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<span>Read More</span>
-		</div>
-		<div class="z_induce_mid_1">
-			<img src="" width="335" height="239" />
-			<h3><a>Lorem Ipsum is simply</a></h3>
-			<h6>BY <a>ADAM ROSE</a> JULY 10 2016.</h6>
-			<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			<span>Read More</span>
+		<div ng-repeat="x in data">
+			<div class="z_induce_mid_1" ng-if="$index==0">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="335" height="239" />
+				<h3><a style="word-spacing: 9px;">{{x.title}}</a></h3>
+				<h6>{{x.date}}</h6>
+				<p ng-bind-html="x.content|h"></p>
+				<span class="btn">Read More</span>
+			</div>
+			<div class="z_induce_mid_1" ng-if="$index==1">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="335" height="239" />
+				<h3><a>{{x.title}}</a></h3>
+				<h6>{{x.date}}</h6>
+				<p ng-bind-html="x.content|h"></p>
+				<span class="btn"><a ui-sref="singlepage({'id':x.id})">Read More</a></span>
+			</div>
 		</div>
 	</div>
 	<div style="height: 15px; width: 798px; background: #f7f7f7;"></div>
 	<div class="z_induce_bot">
-		<img src="" width="335" height="220" />
-		<div class="z_induce_bot_1">
-			<h3><a>Lorem Ipsum is simply</a></h3>
-			<h6>BY <a>ADAM ROSE</a> JULY 10 2016.</h6>
-			<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris .</p>
-			<span>Read More</span>
+		<div ng-repeat="x in data">
+			<div ng-if="$index==2">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="335" height="220" />
+				<div class="z_induce_bot_1">
+					<h3><a>{{x.title}}</a></h3>
+					<h6>{{x.date}}</h6>
+					<p ng-bind-html="x.content|h"></p>
+					<span class="btn"><a ui-sref="singlepage({'id':x.id})">Read More</a></span>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div style="height: 30px; width: 798px; background: #f7f7f7;"></div>
 	<div class="z_induce_bot">
-		<img src="" width="335" height="220" />
-		<div class="z_induce_bot_1">
-			<h3><a>Lorem Ipsum is simply</a></h3>
-			<h6>BY <a>ADAM ROSE</a> JULY 10 2016.</h6>
-			<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris .</p>
-			<span>Read More</span>
+		<div ng-repeat="x in data" ng-if="$index==3">
+			<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="335" height="220" />
+			<div class="z_induce_bot_1">
+				<h3><a>{{x.title}}</a></h3>
+				<h6>{{x.date}}</h6>
+				<p ng-bind-html="x.content|g"></p>
+				<span class="btn"><a ui-sref="singlepage({'id':x.id})">Read More</a></span>
+			</div>
 		</div>
 	</div>
 	<div style="height: 30px; width: 798px; background: #f7f7f7;"></div>
 	<div class="z_induce_bot">
-		<img src="" width="335" height="220" />
-		<div class="z_induce_bot_1">
-			<h3><a>Lorem Ipsum is simply</a></h3>
-			<h6>BY <a>ADAM ROSE</a> JULY 10 2016.</h6>
-			<p>Ut enim ad minim veniam, quis nostrud eiusmod tempor incididunt ut labore et dolore magna aliqua exercitation ullamco laboris .</p>
-			<span>Read More</span>
+		<div ng-repeat="x in data" ng-if="$index==4">
+			<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="335" height="220" />
+			<div class="z_induce_bot_1">
+				<h3><a>{{x.title}}</a></h3>
+				<h6>{{x.date}}</h6>
+				<p ng-bind-html="x.content|h"></p>
+				<span class="btn"><a ui-sref="singlepage({'id':x.id})">Read More</a></span>
+			</div>
 		</div>
 	</div>
 </div>

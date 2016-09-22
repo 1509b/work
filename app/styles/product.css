@@ -4,11 +4,11 @@
 .lh_sint_left{width:337px;height: 496px;float: left;margin-left: 47px;}
 .lh_sint_left img{cursor: pointer;}
 .lh_sin{margin-top: 18px;}
-.lh_sin a{width:337px;height: 1.3em;font-size: 19pxfont-family: 'Raleway', sans-serif;
-font-weight: 600;padding-top:18px;display: block;color: #303030;text-decoration: none;}
+.lh_sin a{width:337px;line-height: 1.3em;font-size: 19px;font-family: 'Raleway', sans-serif;
+font-weight: 600;display: block;color: #303030;text-decoration: none;}
 .lh_sin a:hover{color: #FF0000;}
-.lh_date{color: #fa4b2a;width:337px;height: 16px;font-size: 16px;font-family: 'Raleway', sans-serif;padding-top:36px;display: block;}
-.lh_duis{margin-top: 36px;color: :#999999;width:337px;font-size: 15px;font-family: 'Open Sans', sans-serif;color:#999999;line-height: 22px;}
+.lh_date{color: #fa4b2a;width:337px;height: 32px;font-size: 16px;font-family: 'Raleway', sans-serif;line-height:32px;display: block;}
+.lh_duis{margin-top: 36px;color: #f00;width:337px;font-size: 14px;font-family: 'Open Sans', sans-serif;color:#999999;line-height: 22px; font-family: 'Open Sans', sans-serif;}
 .lh_learn{margin-top: 40px;margin-left: 13px;}
 .lh_learn a{width:337px;height: 14px;font-size: 14px;font-family: 'Raleway', sans-serif;
 padding-top:33px;padding-left: 13px;text-decoration: none;}
@@ -16,14 +16,5 @@ padding-top:33px;padding-left: 13px;text-decoration: none;}
 
 .lh_sint_right{width:337px;height: 446px;float: right;margin-right: 47px;}
 .lh_sint_right img{cursor: pointer;}
-.lh_sin{margin-top: 18px;}
-.lh_sin a{width:337px;height: 1.3em;font-size: 19pxfont-family: 'Raleway', sans-serif;
-font-weight: 600;padding-top:18px;display: block;color: #303030;text-decoration: none;}
-.lh_sin a:hover{color: #FF0000;}
-.lh_date{color: #fa4b2a;width:337px;height: 16px;font-size: 16px;font-family: 'Raleway', sans-serif;padding-top:36px;display: block;}
-.lh_duis{margin-top: 36px;color: :#999999;width:337px;font-size: 14px;font-family: 'Open Sans', sans-serif;color:#999999;line-height: 22px;}
-.lh_learn{margin-top: 50px;margin-left: 13px;}
-.lh_learn a{width:337px;height: 14px;font-size: 14px;font-family: 'Raleway', sans-serif;
-padding-top:33px;text-decoration: none;}
-.lh_learn a:hover{color: #666;}
+
 

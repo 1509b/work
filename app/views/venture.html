@@ -1,110 +1,102 @@
-<div ng-controller="venture">
-	<div class="t-title1">
-		SHORT CODES
+<div class="lh_travel" ng-controller='venture' style="padding-bottom: 40px;">
+	<p class="lh_tr"><b>SHORT CODES</b></p>
+	<div class="lh_sint">
+		<div ng-repeat="a in data">
+			<div class="lh_sint_left" ng-if="$index==0">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+				<p class="lh_sin">
+					<a href="javascript:;">{{a.title}}</a>
+				</p>
+				<p class="lh_date">{{a.date}}</p>
+				<p class="lh_duis" ng-bind-html="a.content|q"></p>
+				<p class="lh_learn">
+					<a ui-sref="singlepage({'id':a.id})">Learn More</a>
+				</p>
+			</div>
+		</div>
+		<!--lh_sint_left-->
+
+		<div ng-repeat="a in data">
+			<div class="lh_sint_right" ng-if="$index==1">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+				<p class="lh_sin" style="margin-bottom: 1.4em;">
+					<a href="javascript:;">{{a.title}}</a>
+				</p>
+				<p class="lh_date">{{a.date}}</p>
+				<p class="lh_duis" ng-bind-html="a.content|q"></p>
+				<p class="lh_learn">
+					<a ui-sref="singlepage({'id':a.id})">Learn More</a>
+				</p>
+			</div>
+		</div>
+		<!--lh_sint_right-->
 	</div>
-	<div class="t-content">
-		<div class="t-nav1">
-			<img src=""/>
-			<a class="t-font">
-				Sint occaecat cupidatat
-			</a>
-			<font>
-				28 July 2016
-			</font>
-			<p>
-				Duis aute irure dolor in reprehenderit in</br>
-				 voluptate velit esse cillum dolore eu fugiat</br> 
-				 nulla pariatur.
-			</p>
-			<a class="t-more">
-				Learn More
-			</a>
+	<!--lh_sint-->
+
+	<div class="lh_sint">
+		<div ng-repeat="a in data">
+			<div class="lh_sint_left" ng-if="$index==2">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+				<p class="lh_sin">
+					<a href="javascript:;">{{a.title}}</a>
+				</p>
+				<p class="lh_date">{{a.date}}</p>
+				<p class="lh_duis" ng-bind-html="a.content|q"></p>
+				<p class="lh_learn">
+					<a ui-sref="singlepage({'id':a.id})">Learn More</a>
+				</p>
+			</div>
 		</div>
-		<div class="t-nav2">
-			<img src=""/>
-			<a class="t-font">
-				Sint occaecat cupidatat
-			</a>
-			<font>
-				28 July 2016
-			</font>
-			<p>
-				Duis aute irure dolor in reprehenderit in</br>
-				 voluptate velit esse cillum dolore eu fugiat</br> 
-				 nulla pariatur.
-			</p>
-			<a class="t-more">
-				Learn More
-			</a>
+		<!--lh_sint_left-->
+
+		<div ng-repeat="a in data">
+			<div class="lh_sint_right" ng-if="$index==3">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+				<p class="lh_sin">
+					<a href="javascript:;">{{a.title}}</a>
+				</p>
+				<p class="lh_date">{{a.date}}</p>
+				<p class="lh_duis" ng-bind-html="a.content|q"></p>
+				<p class="lh_learn">
+					<a ui-sref="singlepage({'id':a.id})">Learn More</a>
+				</p>
+			</div>
 		</div>
-		<div class="t-nav1">
-			<img src=""/>
-			<a class="t-font">
-				Sint occaecat cupidatat
-			</a>
-			<font>
-				28 July 2016
-			</font>
-			<p>
-				Duis aute irure dolor in reprehenderit in</br>
-				 voluptate velit esse cillum dolore eu fugiat</br> 
-				 nulla pariatur.
-			</p>
-			<a class="t-more">
-				Learn More
-			</a>
-		</div>
-		<div class="t-nav2">
-			<img src=""/>
-			<a class="t-font">
-				Sint occaecat cupidatat
-			</a>
-			<font>
-				28 July 2016
-			</font>
-			<p>
-				Duis aute irure dolor in reprehenderit in</br>
-				 voluptate velit esse cillum dolore eu fugiat</br> 
-				 nulla pariatur.
-			</p>
-			<a class="t-more">
-				Learn More
-			</a>
-		</div>
-		<div class="t-nav1">
-			<img src=""/>
-			<a class="t-font">
-				Sint occaecat cupidatat
-			</a>
-			<font>
-				28 July 2016
-			</font>
-			<p>
-				Duis aute irure dolor in reprehenderit in</br>
-				 voluptate velit esse cillum dolore eu fugiat</br> 
-				 nulla pariatur.
-			</p>
-			<a class="t-more">
-				Learn More
-			</a>
-		</div>
-		<div class="t-nav2">
-			<img src=""/>
-			<a class="t-font">
-				Sint occaecat cupidatat
-			</a>
-			<font>
-				28 July 2016
-			</font>
-			<p>
-				Duis aute irure dolor in reprehenderit in</br>
-				 voluptate velit esse cillum dolore eu fugiat</br> 
-				 nulla pariatur.
-			</p>
-			<a class="t-more">
-				Learn More
-			</a>
-		</div>
-		
+		<!--lh_sint_right-->
 	</div>
+	<!--lh_sint-->
+
+	<div class="lh_sint">
+		<div ng-repeat="a in data">
+			<div class="lh_sint_left" ng-if="$index==4">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+				<p class="lh_sin">
+					<a href="javascript:;">{{a.title}}</a>
+				</p>
+				<p class="lh_date">{{a.date}}</p>
+				<p class="lh_duis" ng-bind-html="a.content|q"></p>
+				<p class="lh_learn">
+					<a ui-sref="singlepage({'id':a.id})">Learn More</a>
+				</p>
+			</div>
+		</div>
+		<!--lh_sint_left-->
+
+		<div ng-repeat="a in data">
+			<div class="lh_sint_right" ng-if="$index==5">
+				<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{a.img}}" width="337px" height="212px">
+				<p class="lh_sin" style="margin-bottom: 1.4em;">
+					<a href="javascript:;">{{a.title}}</a>
+				</p>
+				<p class="lh_date">{{a.date}}</p>
+				<p class="lh_duis" ng-bind-html="a.content|q"></p>
+				<p class="lh_learn">
+					<a ui-sref="singlepage({'id':a.id})">Learn More</a>
+				</p>
+			</div>
+		</div>
+		<!--lh_sint_right-->
+	</div>
+	<!--lh_sint-->
 </div>
+<!--lh_travel-->

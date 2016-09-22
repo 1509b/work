@@ -1,47 +1,55 @@
 <div class="lyFeat" ng-controller="automobile">
 	<div class="feat_top">
-		<h2 id="all">AMAZING FEATURES</h2>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>
+		<h2 id="all">AUTOMOBILE</h2>
+		<!--<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.</p>-->
 
 	</div>
 	<div class="feat_bottom">
-		<div class="feat_grid">
-			<div class="grid_img">
-				<img src="" width="377" height="211" />
-			</div>
-			<div class="grid_text">
-				<h4>Et iusto odio dignissimos</h4>
-				<p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
-		</div>
-
-		<div class="feat_grid">
-			<div class="grid_img">
-				<img src="" width="377" height="211" />
-			</div>
-			<div class="grid_text">
-				<h4>Ducimus odio dignissimos</h4>
-				<p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div ng-repeat="x in data">
+			<div class="feat_grid" ng-if="$index==0">
+				<div class="grid_img">
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="377" height="211" />
+				</div>
+				<div class="grid_text">
+					<h4>{{x.title}}</h4>
+					<p ng-bind-html="x.content|j"></p>
+				</div>
 			</div>
 		</div>
 
-		<div class="feat_grid">
-			<div class="grid_img">
-				<img src="" width="377" height="211" />
-			</div>
-			<div class="grid_text">
-				<h4>Et iusto odio dignissimos</h4>
-				<p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<div ng-repeat="x in data">
+			<div class="feat_grid" ng-if="$index==1">
+				<div class="grid_img">
+					<img  ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="377" height="211" />
+				</div>
+				<div class="grid_text">
+					<h4 style="padding-bottom: 20px;">{{x.title}}</h4>
+					<p ng-bind-html="x.content|j"></p>
+				</div>
 			</div>
 		</div>
 
-		<div class="feat_grid">
-			<div class="grid_img">
-				<img src="" width="377" height="211" />
+		<div ng-repeat="x in data">
+			<div class="feat_grid" ng-if="$index==2">
+				<div class="grid_img">
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="377" height="211" />
+				</div>
+				<div class="grid_text">
+					<h4>{{x.title}}</h4>
+					<p ng-bind-html="x.content|j"></p>
+				</div>
 			</div>
-			<div class="grid_text">
-				<h4>Ducimus odio dignissimos</h4>
-				<p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+
+		<div ng-repeat="x in data">
+			<div class="feat_grid" ng-if="$index==3">
+				<div class="grid_img">
+					<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/{{x.img}}" width="377" height="211" />
+				</div>
+				<div class="grid_text">
+					<h4 style="word-spacing: -1px;">{{x.title}}</h4>
+					<p ng-bind-html="x.content|j"></p>
+				</div>
 			</div>
 		</div>
 	</div>
