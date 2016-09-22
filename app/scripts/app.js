@@ -14,7 +14,7 @@ $(function() {
 		'left': $('.banner div img').width()
 	});
 });
-angular.module('1yeoman', ["ui.router", "ngSanitize"]).config(function($stateProvider, $urlRouterProvider) {
+angular.module('1yeoman', ["ui.router","ngSanitize"]).config(function($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.when("", "/information");
 	$stateProvider.state("information", {
 		templateUrl: "../views/information.html",
@@ -89,4 +89,24 @@ angular.module('1yeoman', ["ui.router", "ngSanitize"]).config(function($statePro
 			$scope.isshow3=true;
 		}
 	});
-});
+	
+
+})
+//.controller("CarouselDemoCtrl", function($scope, $http){
+//	
+//	$scope.myInterval = 2000;
+//	$scope.noWrapSlides = false;
+//	var slides = $scope.slides = [];
+//	$scope.addSlide = function() {
+//		var newWidth = 600 + slides.length + 1;
+//		slides.push({
+//			img: 'http://123.56.227.177/bi2/public/wedding_upload/images/a927899159dc3bc53440daa5e6376c9d.jpg',
+//			//text: 'Chocola & Vanilla'
+//		});
+//		slides.push({
+//			img: 'http://123.56.227.177/bi2/public/wedding_upload/images/f80ac9886d550c571b7470ddf768e59f.jpg',
+//			//text: 'Chocola & Vanilla'
+//		});
+//	};
+//	$scope.addSlide();
+//});

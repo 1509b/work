@@ -47,15 +47,30 @@
 				<a ui-sref-active="hover" ui-sref="about">ABOUT</a>
 			</div>
 		</div>
-		<div class="banner">
-			<div>
-				<img src="" width="100%" />
-				<img src="" width="100%" />
-				<img src="" width="100%" />
-				<img src="" width="100%" />
-				<img src="" width="100%" />
-				<img src="" width="100%" />
+		<div class="banner" style="height: 730px; overflow: hidden;">
+			<img ng-src="http://123.56.227.177/bi2/public/sat_upload/images/f170dcd522342926279fa8050e4a2fca.jpg
+" width="100%" />
+			<!--<div ng-controller="CarouselDemoCtrl">
+			<div style="height: 305px">
+				<carousel interval="myInterval" no-wrap="noWrapSlides">
+					<slide ng-repeat="slide in slides" active="slide.active"> 
+						<img ng-src="{{slide.img}}" style="margin:auto;">
+						<div class="carousel-caption">
+							<p>{{slide.text}}</p>
+						</div>
+					</slide>
+				</carousel>
 			</div>
+		</div>-->
+		
+			<!--<div>
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+				<img src="" width="100%" />
+			</div>-->
 		</div>
 		<div class="tab" ng-controller="index">
 			<div class="tab_nav">
@@ -124,13 +139,11 @@
 					<font>
 						Sed do eiusmod tempor Lorem ipsum dolor sit amet, </br>
 						consectetur adipisicing elit, sed do eiusmod .</br>
-						<a style="color:#f94a29">http://sc.chinaz.com/</a>
 					</font>
 					<font>
 						Consectetur adipisicing Lorem ipsum dolor sit </br>
 						amet, consectetur adipisicing elit, sed do eiusmod </br>
 						.</br>
-						<a style="color:#f94a29">http://sc.chinaz.com/</a>
 					</font>
 				</div>
 				<div class="foot-right">
@@ -157,6 +170,7 @@
 		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 		<script src="bower_components/summernote/dist/summernote.js"></script>
 		<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script src="bower_components/angular-animate/angular-animate.js"></script>
 		<!-- endbower -->
 		<!-- endbuild -->
 
@@ -172,6 +186,8 @@
 		<script src="scripts/controllers/recreation.js"></script>
 		<script src="scripts/controllers/phone.js"></script>
 		<script src="scripts/controllers/singlepage.js"></script>
+		<script src="scripts/controllers/ui-bootstrap-tpls.js"></script>
+		<script src="scripts/controllers/ui-bootstrap.js"></script>
 		<!-- endbuild -->
 	</body>
 </html>
